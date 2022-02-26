@@ -21,10 +21,10 @@ const Fondo = () => {
 
         <div className='fondo'>
 
-            <img src={fondo} />
+            <img alt='fondo' src={fondo} />
 
             <div className='modoDark'>
-                <img className={`theme-${themeStatus}`} src={dark} onClick={cambiarThema} />
+                <img alt='fondo' className={`theme-${themeStatus}`} src={dark} onClick={cambiarThema} />
 
 
             </div>
