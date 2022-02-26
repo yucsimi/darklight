@@ -1,0 +1,70 @@
+.ligth{
+
+   --background-body: white; 
+
+   --login-h1-color: #224957;
+   --login-p-color: #224957;
+
+
+   --login-submit-color: #224957;
+   --forgortpasword-color:black;
+   --login-label-color:#224957;
+
+
+}
+
+.dark{
+
+    --background-body: #093545; 
+    --login-h1-color: white;
+    --login-p-color: white;
+    --login-submit-color: white;
+   --forgortpasword-color: #20df7f;
+   --login-label-color: white;
+
+
+
+}
+
+
+.theme-ligth{
+    animation: toLigth 0.5s forwards;
+}
+
+
+.theme-dark{
+
+    animation: toDark 0.5s forwards;
+
+
+}
+
+
+@keyframes toDark {
+
+    0%{
+      
+        transform: rotate(0deg)
+
+    }
+
+    100%{
+        transform: rotate(180deg)
+
+    }
+    
+}
+@keyframes toLigth {
+
+    0%{
+      
+        transform: rotate(180deg)
+        
+    }
+    
+    100%{
+        transform: rotate(0deg)
+        
+    }
+    
+}

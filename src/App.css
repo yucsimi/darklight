@@ -1,0 +1,137 @@
+
+@import "./Styles/Theme.css";
+
+
+.principal{
+    background: var(--background-body)
+}
+
+
+.fondo img {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 24%;
+}
+ @media(max-width:800px) {
+     .fondo img{
+
+         height: 10%;
+        }
+    }
+.modoDark img{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   right: 0;
+   top: 0;
+   margin-right: 20px;
+   margin-top: 20px;
+   
+}
+    
+
+/* login */
+.cont {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.login {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 600px;
+
+    align-items: center;
+
+}
+
+
+
+.login h1 {
+    color: var(--login-h1-color);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.login p {
+    font-family: sans-serif;
+    color: var(--login-p-color);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.formulario {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 15px;
+
+}
+
+.formulario input {
+    height: 40px;
+    margin-bottom: 20px;
+    background: #224957;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border:none;
+
+
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.formulario button {
+    background: #20DF7F;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    color: var(--login-submit-color);
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 5px  4px rgba(0,0,0,.3);
+
+
+
+}
+.formulario p{
+    text-align: right;
+    font-size: 15px;
+    padding: 0;
+    color:#000000;
+}
+
+.checkbox[type='checkbox']{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 0;
+    
+}
+.label{
+    color: var(--login-label-color);
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.tamano{
+    display: flex;
+    align-items: center;
+}
+.forgortpasword{
+    margin: 0;
+    color:var(--forgortpasword-color) !important;
+}
